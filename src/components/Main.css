@@ -1,0 +1,99 @@
+.main {
+  max-height: 50vh;
+}
+
+.main_content {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--white);
+}
+
+.punk_highlight {
+  display: flex;
+  flex: 0.25;
+  align-items: center;
+  justify-content: center;
+}
+
+.punk_container {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.selected_punk {
+  object-fit: contain;
+  max-width: min(30vw,40vh);
+  max-height: 30vw;
+}
+
+.punk_details {
+  /* color: var(--white); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.item_number {
+  color: var(--text_gray);
+  font-size: 72px;
+  align-self: center;
+}
+
+.owner {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.owner > div {
+  margin: 0 5px;
+}
+
+.owner_image_container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.owner_image_container > img {
+  height: 100%;
+  width: 100%;
+}
+
+.owner_details {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.owner_name_and_handle {
+  flex: 1;
+}
+
+.owner_handle {
+  color: #00ebfe;
+}
+
+.owner_link {
+  padding: 12px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid var(--white);
+  margin: 0 0 0 10px;
+}
+
+.owner_link > img {
+  height: 100%;
+  width: 100%;
+}
